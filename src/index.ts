@@ -18,6 +18,11 @@ app.use(express.json());
 // Enable CORS
 
 // Use the routes defined in the separate files
+
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.use("/api", conversionApi);
 
 app.listen(port, () => {

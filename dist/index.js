@@ -17,6 +17,9 @@ const port = 3000;
 app.use(express_1.default.json());
 // Enable CORS
 // Use the routes defined in the separate files
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
 app.use("/api", conversionApi_1.default);
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
