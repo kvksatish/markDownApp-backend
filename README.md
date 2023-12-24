@@ -1,3 +1,9 @@
 # markDownApp
 a text to markdown converter
-# Node 18 and Typescript are used in this
+
+## How to Run?
+## clone it and 
+## npm install
+## npm start
+
+### Node 18 and Typescript are used in this
